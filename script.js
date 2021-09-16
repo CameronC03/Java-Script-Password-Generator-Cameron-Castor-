@@ -4,7 +4,30 @@ var specialChar = "!@#$%^&*()_-+={}[];:'`~<,>.?/|";
 var numberChar =  "0123456789";
 var lowercaseChar = "abcdefghijklmnopqrstuvwxyz";
 var uppercaseChar = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-var passwordLength;
+var passwordLength1;
+var special;
+var number;
+var uppercase;
+
+//function is used to pick the length of the password
+function passwordlength(){
+  passwordlength = prompt("Choose how many characters you want your password to have (8-128 charactrers): ");
+  if (passwordlength<8){
+    alert("Password must be between 8-128 characters");
+    passwordLength();
+  }else if (passwordLength1>128){
+    alert("Password must be between 8-128 characters");
+    passwordLength();
+    
+
+}
+  }
+
+
+}
+
+
+
 
 
 
