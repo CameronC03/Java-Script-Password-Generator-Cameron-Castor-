@@ -18,7 +18,14 @@ function passwordlength(){
   }else if (passwordLength1>128){
     alert("Password must be between 8-128 characters");
     passwordLength();
-    
+  }else{
+    alert("The next three screens will ask you what types of characters you would like to be included in your password.\nIf you choose 'No' for all, your password will only contain lowercase letters.");
+    }
+    return passwordLength;
+   
+
+  }
+
 
 }
   }
