@@ -1,1 +1,3 @@
-# Java-Script-Password-Generator-Cameron-Castor-
+
+![screencapture-file-C-Users-camer-Desktop-Bootcamp2-Working-Material-Homework-Java-Script-Password-Generator-Cameron-Castor-index-html-2021-09-15-23_20_50](https://user-images.githubusercontent.com/88913327/133554416-ae412c8d-2005-4eef-9a64-98f6992908ac.png)
+I made this website from html starter code and little bit of java and tried to make it look like the mock up as good as I could. I faced a lot of challenges making it because it was the first site i have used java in a project outside of class on my own. What motivated me to do the project was it was the first site using java that i have done. I learned java can be tricky and time consuming.
