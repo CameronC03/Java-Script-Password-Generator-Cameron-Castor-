@@ -10,28 +10,30 @@ var number;
 var uppercase;
 
 //function is used to pick the length of the password
-function passwordlength(){
-  passwordlength = prompt("Choose how many characters you want your password to have (8-128 charactrers): ");
-  if (passwordlength<8){
+function passwordLength(){
+  passwordLength1 = prompt("Choose how many characters you want your password to have (8-128 charactrers): ");
+  
+  if (passwordLength<8){
     alert("Password must be between 8-128 characters");
     passwordLength();
   }else if (passwordLength1>128){
     alert("Password must be between 8-128 characters");
+    passwordLength();
+  }else if (isNaN(passwordLength)){
+    alert("Password length must be a number between 8-128 characters");
     passwordLength();
   }else{
     alert("The next three screens will ask you what types of characters you would like to be included in your password.\nIf you choose 'No' for all, your password will only contain lowercase letters.");
     }
     return passwordLength;
    
-
+    
   }
 
-
-}
-  }
+  function 
 
 
-}
+
 
 
 
