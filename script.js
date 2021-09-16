@@ -114,10 +114,11 @@ function generatePassword(){
   special();
   console.log(special1);
 
-  var characters = lowercaseChar;
+var characters = lowercaseChar;
 var password = "";
+
 if (uppercase1 && number1 && special1){
-  characters += uppercaseChar + number1 + special1;
+  characters += uppercaseChar + numberChar + specialChar;
 
 }else if (uppercase1 && number1){
   characters += uppercaseChar + numberChar;
