@@ -5,9 +5,9 @@ var numberChar =  "0123456789";
 var lowercaseChar = "abcdefghijklmnopqrstuvwxyz";
 var uppercaseChar = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var passwordLength1;
-var special;
-var number;
-var uppercase;
+var special1;
+var number1;
+var uppercase1;
 
 //function is used to pick the length of the password
 function passwordLength(){
@@ -30,7 +30,10 @@ function passwordLength(){
     
   }
 
-  function 
+  function uppercase(){
+    uppercase1 = prompt("Do you want to include uppercase letters in your password? \n(Yes or No)");
+
+  }
 
 
 
