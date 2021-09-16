@@ -33,7 +33,14 @@ function passwordLength(){
   function uppercase(){
     uppercase1 = prompt("Do you want to include uppercase letters in your password? \n(Yes or No)");
     uppercase1 = uppercase1.toLowerCase();
+    if (uppercase === null || uppercase === ""){
 
+    } alert("Answer Yes or No");
+    determineUppercase();
+
+  }else if (uppercase === "yes" || uppercase1 ==="y"){
+    uppercase1 = true;
+    return uppercase1;
   }
 
 
