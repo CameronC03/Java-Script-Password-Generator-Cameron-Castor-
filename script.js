@@ -150,7 +150,7 @@ return password;
 
 // Write password to the #password input
 function writePassword() {
-  var password1 = generatePassword();
+  var password1 = "";
   password1 = generatePassword();
   var passwordText = document.querySelector("#password");
   passwordText.value = password1;
