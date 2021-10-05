@@ -50,6 +50,13 @@ if (numberChar === true) {
   }
 }
 
+var specialChar = prompt("Do you want to include Special letters in your password?");
+if (specialChar === true) {
+  for (var i = 0; i < special.length; i++) {
+    collectionOfValids.push(special[i]);
+  }
+}
+
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
