@@ -1,7 +1,7 @@
 
 ![screencapture-file-C-Users-camer-Desktop-Bootcamp2-Working-Material-Homework-Java-Script-Password-Generator-Cameron-Castor-index-html-2021-09-15-23_20_50](https://user-images.githubusercontent.com/88913327/133554416-ae412c8d-2005-4eef-9a64-98f6992908ac.png)
 
-On Github pages it says undefind when password is generated but there is no errors also on vs code there is no errors and it works fine. 
+ 
 
 I made this website from html starter code and little bit of java and tried to make it look like the mock up as good as I could. I faced a lot of challenges making it because it was the first site i have used java in a project outside of class on my own. What motivated me to do the project was it was the first site using java that i have done. I learned java can be tricky and time consuming. I also leanred to have distinct names on stuff or it will confuse you.
 User Story
